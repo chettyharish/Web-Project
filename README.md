@@ -1,7 +1,7 @@
 Web-Project
 ===========
 
-Learning to create Web Pages from various websites and onlinre resources.
+Learning to create Web Pages from various websites and online resources.
 
 Thanks to Timothy Kywn for the tutorials on Youtube. Must see to learn Web designing.
 Youtube Link : www.youtube.com/user/createthenet
