@@ -1,0 +1,1769 @@
+<!DOCTYPE HTML>
+<html><!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/slider.js"></script>
+    
+<script type="text/javascript">  // This is the script for the banner slider
+		$(document).ready(function() {
+			$('#slider').s3Slider({
+				timeOut: 4000
+			});
+		});
+	</script>
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>Website By Harish Chetty</title>
+    
+<script type="text/javascript">
+$(function()
+{
+
+$("#click_here1").click(function(event) {
+event.preventDefault();
+$("#div1").slideToggle();
+});
+
+$("#div1 a").click(function(event) {
+event.preventDefault();
+$("#div1").slideUp();
+});
+
+$("#click_here2").click(function(event) {
+event.preventDefault();
+$("#div2").slideToggle();
+});
+
+$("#div2 a").click(function(event) {
+event.preventDefault();
+$("#div2").slideUp();
+});
+
+$("#click_here3").click(function(event) {
+event.preventDefault();
+$("#div3").slideToggle();
+});
+
+$("#div3 a").click(function(event) {
+event.preventDefault();
+$("#div3").slideUp();
+});
+
+$("#click_here4").click(function(event) {
+event.preventDefault();
+$("#div4").slideToggle();
+});
+
+$("#div4 a").click(function(event) {
+event.preventDefault();
+$("#div4").slideUp();
+});
+
+});
+</script>
+
+
+
+<style type="text/css">
+#div1,#div2,#div3,#div4{
+width:70%;
+display: none;
+padding:5px;
+border:2px solid #EFEFEF;
+background-color:#000}
+
+#click_here{
+
+padding:5px;
+border:2px solid #FFEFEF;
+}
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+    background: transparent url(../images/toggle/bg_button_a.jpg) no-repeat scroll top right;
+    color: #000;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url(../images/toggle/bg_button_span.jpg) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+} 
+</style>
+
+
+	<!-- InstanceEndEditable -->
+	<link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+<link href="../css/dropdown.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../css/default.advanced.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../css/slider.css" media="screen" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="outer">
+
+    <div id="wrapper">
+            
+            <div id="logo">
+            <img src="../images/logo.jpg"/>
+            </div>
+            
+            <div id="social">
+                <ul>
+                    <li><a href="http://www.facebook.com/"><img src="../images/icons/facebook.png" width="24" height="24"/></a></li>
+                    <li><a href="http://www.flickr.com/"><img src="../images/icons/flickr.png" width="24" height="24"/></a></li>
+                    <li><a href="http://www.stumbleupon.com/"><img src="../images/icons/stumbleupon.png" width="24" height="24"/></a></li>
+                    <li><a href="http://twitter.com/"><img src="../images/icons/twitter.png" width="24" height="24"/></a></li>
+                    <li><a href="http://www.yelp.com/"><img src="../images/icons/yelp.png" width="24" height="24"/></a></li>
+                    <li><a href="http://www.youtube.com/"><img src="../images/icons/youtube.png" width="24" height="24"/></a></li>
+                </ul>
+            </div>
+            
+            
+	  <div id="topnav">
+				<ul id="nav" class="dropdown dropdown-horizontal">
+	
+					<li> <a href="../index.html" class="dir">Home</a></li>
+            
+            		<li><a href="../about/about.html" class="dir">About WildIndia!</a>
+
+                       <ul>
+                          <li><a href="../about/about.html">About WildIndia!</a></li>
+                          <li><a href="../about/history.html">History</a></li>
+                          <li><a href="../about/philosophy.html">Philosophy</a></li>
+                          <li><a href="../about/conservation.html">Conservation in Progress</a></li>
+                          <li><a href="../about/community.html">Community Empowerment</a></li>
+                      </ul>
+					</li>
+            
+                    <li><a href="../safaris/safaris.html" class="dir">Safaris</a>
+						<ul>
+                          <li><a href="../safaris/daily.html">Daily Programme</a></li>
+                          <li><a href="../safaris/safaris.html">Safari</a></li>
+						</ul>
+					</li>
+       
+					<li><a href="../lodges/lodges.html" class="dir">Lodge</a>
+						<ul>
+                          <li><a href="../lodges/lodges.html">Lodges</a></li>
+                          <li><a href="../lodges/watercamp.html">Water Camp</a></li>
+                          <li><a href="../lodges/lightlodge.html">Light Lodge</a></li>
+                          <li><a href="../lodges/junglecamp.html">Jungle Camp</a></li>
+                          <li><a href="../lodges/earthcamp.html">Earth Lodge</a></li>
+						</ul>
+					</li>       
+       
+					<li><a href="../services/amanilight.html" class="dir">Lodge Services</a>
+						<ul>
+                          <li><a href="../services/amanilight.html">Amani Spa at Light Lodge</a></li>
+                          <li><a href="../services/amaniearth.html">Amani Spa at Earth Lodge</a></li>
+                          <li><a href="../services/incentive.html">Incentives</a></li>
+                          <li><a href="../services/romantic.html">Romantic Touches</a></li>
+                          <li><a href="../services/themed.html">Themed Dinners</a></li>
+						</ul>
+					</li>       
+       
+				  <li><a href="../tarrifs/tarrifs.html" class="dir">Tarrif</a>
+						<ul>
+                          <li><a href="../tarrifs/tarrifs.html">Tarif</a></li>
+                          <li><a href="#" onclick=
+                          "MyWindow=window.open('http://www.sabisabi.com/tariffs/converter','MyWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=400,height=250'); return false;">
+                          Currency Converter</a></li>
+						</ul>
+					</li>       
+       
+					<li><a href="../bookings/booking.html" class="dir">Bookings</a>
+						<ul>
+                          <li><a href="../bookings/booking.html">Book Now!</a></li>
+                          <li><a href="../bookings/internationaloffices.html">International Offices</a></li>
+                          <li><a href="../bookings/children.html">Children&prime;s Policy</a></li>
+						</ul>
+					</li> 
+                    
+                    <li><a href="usefulinfo.html" class="dir">Useful Information</a>
+					</li>                     
+        
+        
+					<li><a href="../gallery/maingallery.html" class="dir">Image Gallery</a>
+						<ul>
+                          <li><a href="../gallery/maingallery.html">Image Gallery</a></li>
+                          <li><a href="../gallery/watergallery.html">Water Camp</a></li>
+                          <li><a href="../gallery/lightgallery.html">Light Lodge</a></li>
+                          <li><a href="../gallery/junglegallery.html">Jungle Camp</a></li>
+                          <li><a href="../gallery/earthgallery.html">Earth Lodge</a></li>
+                          <li><a href="../gallery/wildlifegallery.html">WildLife</a></li>
+                          <li><a href="../gallery/themedgallery.html">Themed</a></li>
+                          <li><a href="../gallery/romanticgallery.html">Romantic</a></li>
+                          <li><a href="../gallery/safarigallery.html">Safari</a></li>
+						</ul>
+					</li>               
+        
+					<li><a href="../gettingthere/gettingthere.html" class="dir">Getting There</a>
+						<ul>
+                          <li><a href="../gettingthere/gettingthere.html">How to get there</a></li>
+						</ul>
+					</li>
+                                   
+					<li><a href="../contactus/contactus.html">Contact WildIndia!</a></li>
+				</ul>
+			</div>
+            
+            
+           
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<!-- InstanceBeginEditable name="banner" -->
+			<div id="slider">
+			  <ul id="sliderContent">
+			    <li class="sliderImage"> <img src="../images/banner/1.jpg"/> <span class="top"><strong>Light Lodge</strong> <br/>
+			      For decades Light Lodge has been WildIndia's <br/>
+			      flagship lodge,amed for its warmth, vibrancy <br/>
+			      and legendary hospitality. <br/>
+			      <br/>
+			      A favourite amongst travellers in search of <br/>
+			      luxury accommodation,Light Lodge is a luxurious <br/>
+			      safari escape set in the heart of the WildIndia <br/>
+			      bushveld overlooking a waterhole and an Indian plain. </span></li>
+			    <span class="top">
+			      <li class="sliderImage"> <img src="../images/banner/2.jpg" /> <span class="top"><strong>Water Camp</strong> <br/>
+			        Imagine the India of the great safari era, when <br/>
+			        blazing sunsets melted into lantern lit romance <br/>
+			        and service was an effortless whisper. <br/>
+			        <br/>
+			        This is the India you will experience at WildIndia <br/>
+			        Water Camp, an award winning luxury game lodge in India. </span></li>
+			      <li class="sliderImage"> <img src="../images/banner/3.jpg" /> <span class="top"><strong>Leopard</strong> <br/>
+			        The most secretive and elusive of the large carnivores, <br/>
+			        the leopard is also the shrewdest. Pound for pound, <br/>
+			        it is the strongest climber of the large cats and <br/>
+			        capable of killing prey larger than itself. </span></li>
+			      <li class="sliderImage"> <img src="../images/banner/4.jpg" /> <span class="top"><strong>Amani Spa</strong> <br/>
+			        Treat yourself to the health and luxury you deserve <br/>
+			        at the Amani Spa at Light Lodge. The perfect place <br/>
+			        to rest and relax, this haven of tranquility offers <br/>
+			        the ultimate African Spa experience. </span></li>
+			      <li class="sliderImage"> <img src="../images/banner/5.jpg" /> <span class="top"><strong>Asian Elephant</strong> <br/>
+			        The Majestic Animal of Ancient times with <br/>
+			        footsteps which shake the earth will fill your <br/>
+			        hears with fear. </span></li>
+			      <div class="clear sliderImage"></div>
+		        </span>
+		      </ul>
+		    </div>
+			<!-- InstanceEndEditable -->
+			<div id="content-fullwidth"><!-- InstanceBeginEditable name="content" -->
+        
+            
+            <p style="text-align:center;width:600px;"><a  class="button" href="#" id="click_here1"> <span><harlink>guide to photography</harlink></span></a> </p>
+    		<br/>           
+     <div id="div1">
+            
+            <a href="#" class="close">Close Window</a>
+            <p>
+<h2 class="subheader">recommended equipment</h2><br />
+<h3 class="subheader">camera bodies</h3>
+<p>Any good camera will do. One gets so close to the wildlife that even a good compact camera will achieve fantastic shots. However, if you want
+		flexibility and the opportunity of capturing that really fantastic shot then any good quality digital or 35mm SLR (single lens reflex, as opposes to a
+		compact camera with automatic controls) camera body will be needed. There are many models and makes to look at, but it's important that the camera
+		shoots at least five frames per second so that you do not miss the action. With a compact camera there is a slight delay between pushing the trigger
+		and the shot being captured; whereas a SLR is instant. Some of the new Nikon SLR cameras offer excellent low-light capabilities giving you more
+		opportunities when the light begins to fade.</p><br /><br />
+		<h3 class="subheader">suggested lens selection</h3>
+<p>You will get extremely close to wildlife so it is not necessary to have huge lenses. A good zoom lens is your best option and will offer best
+		flexibility.</p><br /><br />
+
+<h3 class="subheader">zoom lenses</h3>
+<p>Fast lenses with an F stop of F4 through to F2.8 are best. Great all purpose lenses in this range are the 70-200mm f2.8, 200-400 f4 or 100-400 f5.6
+		lenses. With both these lenses you will have plenty on lens at all times and enough speed to keep your image nice and sharp.</p><br /><br />
+<h3 class="subheader">multi purpose lenses</h3>
+<p>Most SLR bodies come with a standard lens; otherwise a lens with a 24-70mm range would be ideal to take landscape shots and general travel/ people shots.</p><br /><br />
+<h3 class="subheader">prime or fixed lenses</h3>
+<p>These are lenses that have a fixed length starting from 200mm and going up to 600mm. These are excellent lenses but very expensive and not always
+		necessary. These lenses are wonderful in low light conditions, are very fast and offer great abrasion/shallow depths of fields giving your portrait
+		shot that sharp look with a blurred background. However, they do tend to be heavy and need to be shot on a tripod or support of some kind.</p><br /><br />
+<h3 class="subheader">converters</h3>
+<p>Put in a 1.4 or 2 x converter if you can. It's always worth having and gives your lens that little more if you realty need it or if you want to take
+		photos of birds.</p><br /><br />
+		<h3 class="subheader">support systems</h3>
+
+		<p>In order to get that sharp image, you need to make sure that you are shooting as fast as you can in the light offered, and most importantly you need to
+		make sure your camera and lens are as stable as you can make them.</p><br /><br /><br />
+            </p>
+            <h3 class="subheader">clamps and heads</h3>
+<p>All Sabi Sabi Land Rovers have large steel roll bars in front of each seat. The easiest way to get stability is using a G-clamp directly onto the bar
+		with a good quality head. Any good ball head or video head will work. The wimberly head is one of the best and very effective, if expensive. The lodges
+		are able to supply a G clamp and Manfrotto 501hdv head on request for a small daily hiring charge of R250. This Head and clamp works really well
+		especially with the bigger lenses.</p><br /><br />
+
+<h3 class="subheader">tripods and monopods</h3>
+<p>A tripod is not usable on the Land Rover itself. You will not have enough room to adjust the legs and will not get enough stability. However, in and
+		around the lodge or for that perfect sunset shot, you could use a tripod. A monopod is very popular and works well, using the floor of the Land Rover
+		as a base. It is still advisable to put a movable head on the end of the mono.</p><br /><br />
+
+<h3 class="subheader">bean bags</h3>
+<p>An old favourite, the bean bag, works very well. They are easy to use and offer lots of support. The down side is that they tend to be heavy. Don't
+		worry about bringing the filling along, as this is too heavy. The lodge will gladly offer you rice to fill the bag for your stay. Out of interest, bird
+		seed works really well, its very light and settles well plus you can use some of the filling to feed the birds.</p><br /><br />
+
+<h3 class="subheader">flash work</h3>
+<p>It's important to have a good flash. A third of the evening safari is at night and in near total darkness. Having a good flash or speedlight will
+		certainly help in these conditions. There is no problem with the use of flash at all during our safaris and we would only ask for flashes not to be
+		used when the big cats are actively hunting. Each Land Rover will have a tracker and he operates a powerful spotlight. One can easily take photos using
+		this light as your only light source - it often creates a lovely effect!</p><br /><br />
+
+		<h3 class="subheader">bags or cases</h3>
+
+		<p>The African bush is a dusty place so it would be a good idea to keep your camera in a bag that seals while you are on safari. It's also a good idea to
+		not change lenses while out on safari. This will help to prevent your digital sensor being contaminated by dust particles.</p><br /><br />
+		<h3 class="subheader">memory cards and storage</h3>
+		<p>Bring a lot of memory with you - either a hard drive or lots of cards. There is no facility at the lodge to purchase cards and there is no way of
+		downloading your cards either. So bring a laptop, hardrive or enough memory to last the full stay. I always take more than I expect to use. On a good
+		safari I can easily fill up 8 gigs of memory. The more you shoot the more chance you have of getting that prize shot.</p><br /><br />
+        <h2 class="subheader">a guide to photography at sabi sabi - settings and tips</h2></li>
+
+<li class="normallessdark"><h2 class="subheader">what to do on safari to get that prized photo</h2><br />
+
+<p>On your arrival let it be known that you enjoy photography and are interested in getting some great shots. While all our Rangers are well trained in
+		the art of photography some of the team have made it their passion so by letting us know we will try to make sure your guide can assist you.</p><br />
+		<p>
+		On each Land Rover there is three rows of seats, with each row a little higher than the one before. I always suggest taking the front row or even the
+		seat next to the ranger. You want to be as low to the ground as possible. You will either be shooting over the bonnet or over the side of the vehicle
+		so set yourself up accordingly.</p><br />
+Click to see image example</a></p><br /><br />
+
+	<h3 class="subheader">
+
+		camera settings
+	</h3>
+	<p>
+		If you are new to photography and your camera is new then I suggest keeping your camera on "Program" this is normally a P on most top end cameras. Make
+		sure your Auto Focus is on and your image stability if your lens has such a function.
+	</p><br />
+	<p>
+		However if you understand a little more about photography and are confidant with your camera I suggest the following. Always shoot in RAW - this is so
+		important I can't stress it enough. Granted, it uses up lots of memory but this could be the shot of a lifetime and if it is shot on RAW you have so
+		much more flexibly when it comes to processing the shot. For your portrait shot and landscape shots always use "Aperture Priority" this lets you choose
+		the Aperture and the camera will automatically select the camera speed for you. By doing this you can control your depth of field. In general keep the
+		Aperture on F6.3 and F7.1. This will make sure that your entire portrait is in focus.</p><br /> <p>But beware make sure that you are getting enough speed especially
+		when the light starts to fade. Rule of thumb is that your speed should never be below the length of your lens. For example: if you are using a 200mm
+		lens you should never shoot below 1/200<sup>th</sup> of a second or you risk camera shake. To prevent this happening especially when the light is low
+		do not hesitate to use a much higher ISO. On most of the new cameras you can easily take the ISO up to 1000 without the image being too grainy. I
+		personally will keep my camera set on f7.1 and ISO 400 achieving speeds of 1/1600 to 1/2000 during the day and pushing my ISO up to 800 in the early morning
+		and late afternoon and even at times taking this up to ISO 1200. Remember the more speed you can get the better chance of the image being
+		sharp.
+	</p><br />
+
+	<p>If you plan to try and shoot lots of action shots then "Speed Priority" is a must. To freeze a shot you would set a speed of at least 1/1600 and up,
+		the camera will automatically set your aperture. Again be aware that your aperture is not falling too low if it is pushing up your ISO again. Here I
+		would probably leave my camera on ISO 800 all the time. This would also	ensure a lot of speed.</p><br />
+Click to see image example</a></p><br /><br />
+<h3 class="subheader">focus</h3>
+		<p>Most of the newer cameras allow you to move your focus sensor square around manually on the frame. Do this and always make sure that you place the
+		sensor on the eye of the animal where possible. A sharp eye always gives the image a much sharper look.</p><br /><br />
+
+
+            <a href="#" class="close">Close Window</a>
+            </div>
+            <br/>
+            
+            			<p style="text-align:center;width:600px;"><a  class="button" href="#" id="click_here2"> <span><harlink>stargazing</harlink></span></a> </p>
+    		<br/>           
+     <div id="div2">
+            
+            <a href="#" class="close">Close Window</a>
+            <h2 class="subheader">night sky in october 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+
+	<p>
+		First quarter - Tuesday, 04<sup>th</sup> October<br />
+	
+	
+		Full moon - Wednesday, 12<sup>th</sup> October<br />
+	
+	
+		Last quarter - Thursday, 20<sup>th</sup> October<br />
+
+	
+	
+		New moon - Wednesday, 26<sup>th</sup> October<br />
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in october</h3>
+
+
+	<p>
+		<strong>Mercury: </strong>
+		Being too close to the sun Mercury can't be seen at the beginning of the month yet it is visible shortly after sunset towards month end.
+	</p>
+	<p>
+		<strong>Venus:</strong>
+		 Visible in the western skies for a brief period of time just after sunset.
+	</p>
+	<p>
+
+		<strong>Mars:</strong>
+		Look to the eastern sky about three hours before sunrise to see Mars this month.
+	</p>
+	<p>
+		<strong>Jupiter: </strong>
+		Visible in the night sky for the whole month of October.
+	</p>
+	<p>
+		<strong>Saturn:</strong>
+
+		At the start of the month Saturn is visible in the west just after sunset and towards month end it is visible in the eastern skies as the sun
+			rises.
+	</p>
+	<p>
+		<strong>Uranus: </strong>
+		Available all night long for the month of October.
+	</p>
+	<p>
+		<strong>Neptune: </strong>
+		Setting only one hour before sunrise Neptune is visible all night long within the constellation of Aquarius.
+	</p>
+
+		<br />
+
+<h2 class="subheader">night sky in september 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		First quarter - Sunday, 04th September<br />
+Full moon - Monday, 12th September<br />
+Last quarter - Tuesday, 20th September<br />
+
+New moon - Tuesday, 27th September<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in september</h3>
+
+
+	<p>
+		<strong>Mercury: </strong>
+
+		Will be visible just before sunrise only in the beginning of the month.
+	</p>
+	<p>
+		<strong>Venus:</strong>
+		 More visible towards month end for one hour after sunset.
+	</p>
+	<p>
+		<strong>Mars:</strong>
+		Visible in the east two hours before sunrise.
+	</p>
+
+	<p>
+		<strong>Jupiter: </strong>
+		Rises early after sunset throughout the month of September.
+	</p>
+	<p>
+		<strong>Saturn:</strong>
+		Visible after sunset in the western sky for up to three hours at the beginning of the month reducing its visibility to one hour towards month
+			end.
+	</p>
+	<p>
+
+		<strong>Uranus: </strong>
+		At the beginning of the month Uranus rises just after sunset and towards month end it rises shortly before sunset.
+	</p>
+	<p>
+		<strong>Neptune: </strong>
+		Up all night within the constellation Aquarius.
+	</p>
+		<br />
+
+<h2 class="subheader">night sky in august 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		First quarter - Saturday, 06th  August<br />
+Full moon - Saturday, 13th August<br />
+Last quarter - Sunday, 21st August<br />
+New moon - Monday, 29th  August<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in august</h3>
+
+
+	<p>
+		<strong>Mercury: </strong>
+
+		In the beginning of the month Mercury is visible in the western sky for about one to two hours after sunset and towards month end it shifts to be visible at the same time but in the eastern sky.
+	</p>
+	<p>
+		<strong>Venus:</strong>
+		 This month Venus is just too close to the sun and therefore will not be visible.
+	</p>
+	<p>
+		<strong>Mars:</strong>
+		For about two hours Mars is visible in the east just before sunrise.
+	</p>
+
+	<p>
+		<strong>Jupiter: </strong>
+		Rises around midnight and will be visible until sunrise.
+	</p>
+	<p>
+		<strong>Saturn:</strong>
+		Is visible in the western sky for up to five hours after sunset.
+	</p>
+	<p>
+
+		<strong>Uranus: </strong>
+		For the month of August Uranus rises anything from four to two hours after sunset.
+	</p>
+	<p>
+		<strong>Neptune: </strong>
+		Rises about an hour after sunset within the constellation Aquarius.
+	</p>
+		<br />
+
+<h2 class="subheader">night sky in july 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		New moon - Friday, 01st  July and Saturday, 30th  July<br />
+
+
+		First quarter - Friday, 08th  July<br />
+
+		Full moon - Friday, 15th July<br />
+
+
+		Last quarter - Saturday, 23rd  July<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in july</h3>
+
+
+	<p>
+		<strong>Mercury: </strong>
+		Is only visible for one hour after sunset.
+	</p>
+	<p>
+		<strong>Venus:</strong>
+		 Will be visible just before dawn hanging low in the eastern sky.
+	</p>
+
+	<p>
+		<strong>Mars:</strong>
+		Also in the east Mars will be visible for two hours before dawn.
+	</p>
+	<p>
+		<strong>Jupiter: </strong>
+		Will only rise after midnight and will be visible until dawn breaks.
+	</p>
+	<p>
+
+		<strong>Saturn:</strong>
+		Dominating the western parts of the sky Saturn will only be visible in the early morning hours.
+	</p>
+	<p>
+		<strong>Uranus: </strong>
+		Is visible a little bit earlier than Saturn for the whole month of July.
+	</p>
+	<p>
+		<strong>Neptune: </strong>
+
+		Look towards the constellation Aquarius to see Neptune shortly after sunset.
+	</p>
+		<br />
+
+<h2 class="subheader">night sky in june 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		New moon - Wednesday, 1 June<br />
+
+
+		First quarter - Thursday, 9 June<br />
+
+
+		Full moon - Wednesday, 15 June<br />
+
+
+		Last quarter - Thursday, 23 June<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in june</h3>
+
+
+	<p>
+		<strong>Mercury: </strong>
+		Is only visible for one hour before sunrise at the beginning of the month and one hour after sunset at the end of the month.
+	</p>
+
+	<p>
+		<strong>Venus and Mars:</strong>
+		 For the month of June these two planets rise and shine brightly a few hours before sunrise in the eastern sky.
+	</p>
+	<p>
+		<strong>Jupiter: </strong>
+		Shines just as bright as Venus and Mars for five hours before sunrise.
+	</p>
+	<p>
+
+		<strong>Saturn:</strong>
+		Is visible from directly after sunset until midnight.
+	</p>
+	<p>
+		<strong>Uranus: </strong>
+		Is visible for the whole month of June after midnight.
+	</p>
+	<p>
+		<strong>Neptune: </strong>
+
+		From just before midnight Neptune is visible within the constellation of Aquarius.
+	</p>
+		<br />
+
+<h2 class="subheader">night sky in may 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		New moon - Tuesday, 3 May<br />
+
+
+		First quarter - Tuesday, 10 May<br />
+
+
+		Full moon - Tuesday, 17 May<br />
+
+
+		Last quarter - Tuesday, 24 May<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in may</h3>
+
+	<p>
+			<strong>Mercury, Venus and Mars: </strong>
+			Will be visible at different times just before sunrise.
+		</p>
+
+		<p>
+			<strong>Jupiter: </strong>
+			Will be visible before dawn for one hour at the beginning of the month and two hours towards the end of the month.<strong></strong>
+		</p>
+		<p>
+			<strong>Saturn:</strong>
+			Can be seen for the largest part of the evening.
+		</p>
+
+		<p>
+			<strong>Uranus: </strong>
+			Is visible before dawn for one hour at the beginning of the month and five hours towards the end of the month of May.<strong></strong>
+		</p>
+		<p>
+			<strong>Neptune: </strong>
+			Sets the example for Uranus by rising five hours before dawn at the beginning of the month and seven hours towards the end of the month.
+		</p>
+
+		<br />
+
+
+<h2 class="subheader">night sky in april 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		New moon - Sunday, 3 April<br />
+
+
+		First quarter - Monday, 11 April<br />
+
+
+		Full moon - Monday, 18 April<br />
+
+
+		Last quarter - Monday, 25 April<br />
+
+
+	</p>
+
+	<br />
+
+		<h3 class="subheader">planets visible in april</h3>
+
+	<p>
+		<strong>Mercury: </strong>
+		Will be visible just before sunrise as from the middle of the month.
+	</p>
+	<p>
+
+		<strong>Venus:</strong>
+		Will be visible approximately two hours before sunrise for the entire month of April.
+	</p>
+	<p>
+		<strong>Mars: </strong>
+		Due to Mars rising at dawn we will not be able to see it.
+	</p>
+	<p>
+		<strong>Jupiter: </strong>
+
+		Being too close to the sun
+		can only observe Jupiter for a short period at month end.
+	</p>
+	<p>
+		<strong>Saturn:</strong>
+		Will be out and visible for the whole night.
+	</p>
+	<p>
+		<strong>Uranus: </strong>
+		Will in true sense only be visible for three hours before dawn towards the end of the month.
+	</p>
+
+	<p>
+		<strong>Neptune: </strong>
+		At the beginning of the month this planet will rise at three in the morning and towards the end of the month he will only be seen after one.
+	</p>
+		<br />
+
+<h2 class="subheader">night sky in march 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+
+	<p>
+		New moon - Friday, 4 March<br />
+
+
+		First quarter - Sunday, 13 March<br />
+
+
+		Full moon - Saturday, 19 March<br />
+
+
+		Last quarter - Saturday, 26 March<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in march</h3>
+
+	<p>
+		<strong>Mercury:</strong>
+
+		We might only have a glimpse of Mercury just before dusk ends due to it being too close to the sun.
+	</p>
+	<p>
+		<strong>Venus:</strong>
+		This month you will have to get up as early as three in the morning to see Venus acting as the morning star in the east.
+	</p>
+	<p>
+		<strong>Mars:</strong>
+		Will not feature at all this month being so close to the sun.
+	</p>
+
+	<p>
+		<strong>Jupiter:</strong>
+		Looking toward the west shortly after the sun sets, Jupiter will be visible for only one hour in the first half of the month.
+	</p>
+	<p>
+		<strong>Saturn:</strong>
+		Look for the constellation Virgo and you will find Saturn, available all night long.
+	</p>
+	<p>
+
+		<strong>Uranus:</strong>
+		Will not be visible to appreciate for the month of March.
+	</p>
+	<p>
+		<strong>Neptune:</strong>
+		Will be feeble but visible just before sunrise for the second half of the month.
+	</p>
+		<br />
+
+<h2 class="subheader">night sky in february 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		New moon - Thursday, 03 February<br />
+
+
+		First quarter - Friday, 11 February<br />
+
+		Full moon - Friday, 18 February<br />
+
+
+		Last quarter - Friday, 25 February<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in february</h3>
+
+	<p>
+		<strong>Mercury</strong>
+		is visible for a couple of hours before sunrise throughout the month.
+	</p>
+	<p>
+		<strong>Venus</strong>
+		is visible from approximately 03h00 until sunrise.
+	</p>
+
+	<p>
+		<strong>Mars</strong>
+		is not visible for the majority of February as it is positioned too close to the Sun.
+	</p>
+	<p>
+		<strong>Jupiter</strong>
+		is visible for approximately one hour after sunset.
+	</p>
+	<p>
+
+		<strong>Saturn</strong>
+		rises towards the middle of the evening and is visible throughout the night.
+	</p>
+	<p>
+		<strong>Uranus </strong>
+		sets shortly after sunset at the beginning of the month.
+	</p>
+	<p>
+		<strong>Neptune </strong>
+
+		can be seen shortly after sunset, however, it is not highly visible due to it being located too close to the Sun.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in january 2011</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		New moon - Tuesday, 04 January<br />
+
+
+		First quarter - Wednesday, 12 January<br />
+
+
+		Full moon - Wednesday, 19 January<br />
+
+
+		Last quarter - Wednesday, 26 January<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in january</h3>
+
+	<p>
+		<strong>Mercury</strong>
+		is visible for approximately two hours before sunrise.
+	</p>
+
+	<p>
+		<strong>Venus</strong>
+		is visible from approximately 03h00 until sunrise.
+	</p>
+	<p>
+		<strong>Mars</strong>
+		is not visible during January as it is positioned too close to the Sun.
+	</p>
+	<p>
+
+		<strong>Jupiter</strong>
+		is visible for approximately three hours after sunset.
+	</p>
+	<p>
+		<strong>Saturn</strong>
+		rises at approximately midnight and is visible all night.
+	</p>
+	<p>
+		<strong>Uranus </strong>
+
+		is visible during the early evening for a few hours after sunset.
+	</p>
+	<p>
+		<strong>Neptune </strong>
+		sets approximately one hour after sunset.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in december 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		New moon - Sunday, 05 December<br />
+
+
+		First quarter - Saturday, 13 December<br />
+
+
+		Full moon - Tuesday, 21 December<br />
+
+
+		Last quarter - Tuesday, 28 December<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in december</h3>
+
+	<p>
+
+		<strong>Mercury</strong>
+		will set approximately one hour after sunset at the beginning of the month and moving closer and closer to the Sun throughout the month.
+	</p>
+	<p>
+		<strong>Venus</strong>
+		will rise approximately two hours before sunrise and shortly after 02h00 by month end.
+	</p>
+	<p>
+		<strong>Mars</strong>
+
+		will set shortly after sunset and will be close to the Sun by month end.
+	</p>
+	<p>
+		<strong>Jupiter</strong>
+		is visible early in the evening until approximately 01h00 at the beginning of the month and at approximately midnight towards month end.
+	</p>
+	<p>
+		<strong>Saturn</strong>
+		rises at approximately 02h00 at the beginning of the month and shortly after midnight towards month end.
+	</p>
+
+	<p>
+		<strong>Uranus </strong>
+		is visible during the early evening and will remain close to Jupiter throughout December.
+	</p>
+	<p>
+		<strong>Neptune </strong>
+		is visible during the evenings until approximately one to two hours prior to midnight.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in november 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		New moon - Saturday, 06 November<br />
+
+
+		First quarter - Saturday, 13 November<br />
+
+
+		Full moon - Sunday, 21 November<br />
+
+
+		Last quarter - Sunday, 28 November<br />
+
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in november</h3>
+
+	<p>
+		<strong>Mercury</strong>
+		is visible in the evening sky before setting about half an hour after sunset at the beginning of the month and an hour and a half after sunset at the
+		end of the month.
+	</p>
+	<p>
+		<strong>Venus</strong>
+
+		is visible in the east for an hour or two prior to sunrise.
+	</p>
+	<p>
+		<strong>Mars</strong>
+		will be visible for approximately two hours after sunset at the beginning of the month to about an hour after sunset by month end.
+	</p>
+	<p>
+		<strong>Jupiter</strong>
+		sets at approximately 03h00 at the beginning of the month and at approximately 01h00 towards month end.
+	</p>
+
+	<p>
+		<strong>Saturn</strong>
+		is visible for approximately one hour prior to sunrise at the beginning of the month and after 02h00 towards month end.
+	</p>
+	<p>
+		<strong>Uranus </strong>
+		is visible all night before setting at around 03h00 at the beginning of the month and at 01h00 towards month end.
+	</p>
+	<p>
+
+		<strong>Neptune </strong>
+		is visible almost all night until it sets shortly after midnight.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in october 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+
+		Last quarter - Friday, 01 October<br />
+
+
+		New moon - Thursday, 07 October<br />
+
+
+		First quarter - Thursday, 14 October<br />
+
+
+		Full moon - Saturday, 23 October<br />
+
+		Last quarter - Saturday, 30 October<br />
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in october</h3>
+
+	<p>
+		<strong>Mercury</strong>
+
+		is visible before sunrise. It can be seen towards the end of the month shortly after sunset.
+	</p>
+		<strong>Venus</strong>
+	<p>
+		sets a couple of hours after sunset in early October and will not be visible towards month end as it is too close to the sun.
+	</p>
+	<p>
+		<strong>Mars</strong>
+		will be visible in the west for a couple of hours after sunset.
+	</p>
+
+	<p>
+		<strong>Jupiter</strong>
+		sets shortly before sunrise and is visible throughout the night.
+	</p>
+	<p>
+		<strong>Saturn</strong>
+		rises with the sun at the beginning of the month and is visible low in the east shortly before sunrise towards the end of the month.
+	</p>
+	<p>
+
+		<strong>Uranus </strong>
+		sets shortly before sunrise and is visible throughout the night.
+	</p>
+	<p>
+		<strong>Neptune </strong>
+		is visible almost all night until it sets at 04h00 at the beginning of the month and at 02h00 towards the end of the month.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in september 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		Last quarter - Wednesday, 1 September<br />
+
+
+		New moon - Wednesday, 8 September<br />
+
+
+		First quarter - Wednesday, 15 September<br />
+
+
+		Full moon - Thursday, 23 September<br />
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in september</h3>
+
+	<p>
+		<strong>Mercury</strong>
+		is visible in the early morning with the Sun on the 1<sup>st</sup> and then an hour before sunrise towards mid-month.
+	</p>
+	<p>
+		<strong>Venus</strong>
+
+		sets after 21h00 for most of the month.
+	</p>
+	<p>
+		<strong>Mars</strong>
+		will set earlier each evening and will be visible for 3 - 4 hours after sunset.
+	</p>
+	<p>
+		<strong>Jupiter</strong>
+		rises shortly after sunset and is visible throughout the night.
+	</p>
+
+	<p>
+		<strong>Saturn</strong>
+		sets shortly after sunset and by mid-month will get closer to the Sun.
+	</p>
+	<p>
+		<strong>Uranus</strong>
+		remains close to Jupiter and is visible through the night.
+	</p>
+	<p>
+
+		<strong>Neptune </strong>
+		is visible almost all night, until it sets shortly before sunrise.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in august 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+
+		Last quarter - Tuesday, 3 August<br />
+
+
+		New moon - Tuesday, 10 August<br />
+
+
+		First quarter - Monday, 16 August<br />
+
+
+		Full moon - Tuesday, 24 August<br />
+
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in august</h3>
+
+	<p>
+		<strong>Mercury</strong>
+		is visible in the evening after sunset.
+	</p>
+
+	<p>
+		<strong>Venus</strong>
+		is a brilliant evening object until 21h00 all month.
+	</p>
+	<p>
+		<strong>Mars</strong>
+		is visible in the evening until approximately 21h00.
+	</p>
+	<p>
+
+		<strong>Jupiter</strong>
+		rises well before midnight and is visible almost all night towards month end.
+	</p>
+	<p>
+		<strong>Saturn</strong>
+		can be seen for approximately 3 hours after sunset at the beginning of the month and for about 2 hours at month end.
+	</p>
+	<p>
+		<strong>Uranus </strong>
+
+		is up a few hours after sunset and can be seen all night.
+	</p>
+	<p>
+		<strong>Neptune </strong>
+		is also visible all night throughout the month.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in july 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		Last quarter - Sunday, 4 July<br />
+
+
+		New moon - Sunday, 11 July<br />
+
+
+		First quarter - Sunday, 18 July<br />
+
+
+		Full moon - Monday, 26 July<br />
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in july</h3>
+
+	<p>
+		<strong>Mercury</strong>
+
+		sets about 2 hours after sunset towards month end.
+	</p>
+	<p>
+		<strong>Venus</strong>
+		is visible in the evening for about 2 hours after sunset in the western horizon before setting.
+	</p>
+	<p>
+		<strong>Mars</strong>
+		is visible in the evening sky for about 4 hours after sunset.
+	</p>
+
+	<p>
+		<strong>Jupiter</strong>
+		rises for approximately 1 hour before midnight and is visible for the rest of the night.
+	</p>
+	<p>
+		<strong>Saturn</strong>
+		is up all evening until it sets at around 1 - 2 hours before midnight.
+	</p>
+	<p>
+
+		<strong>Uranus </strong>
+		rises about 1 to 2 hours before midnight, remaining close to Jupiter.
+	</p>
+	<p>
+		<strong>Neptune </strong>
+		rises a few hours after sunset all month.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in june 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		Last quarter - Saturday 5 June<br />
+
+
+		New moon - Saturday 12 June<br />
+
+
+		First quarter - Saturday 19 June<br />
+
+
+		Full moon - Saturday 26 June<br />
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in june</h3>
+
+	<p>
+		<strong>Mercury</strong>
+		is visible in the morning sky approximately 2 hours before sunrise.
+	</p>
+	<p>
+		<strong>Venus</strong>
+		is visible in the evening, after sunset for approximately 2 hours on the western horizon.
+	</p>
+
+	<p>
+		<strong>Mars</strong>
+		is visible for about 5 hours after sunset.
+	</p>
+	<p>
+		<strong>Jupiter</strong>
+		is visible from just after midnight until sunrise.
+	</p>
+	<p>
+
+		<strong>Saturn</strong>
+		is visible all evening until just after midnight.
+	</p>
+	<p>
+		<strong>Uranus </strong>
+		is up shortly after midnight and is visible until sunrise.
+	</p>
+	<p>
+		<strong>Neptune </strong>
+
+		rises before midnight and is visible until sunrise.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in may 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		Last quarter - Thursday 6 May<br />
+
+
+		New moon - Friday 14 May<br />
+
+
+		First quarter - Friday 21 May<br />
+
+
+		Full moon - Friday 28 May<br />
+	</p>
+
+	<br />
+
+		<h3 class="subheader">planets visible in may</h3>
+
+	<p>
+		<strong>Mercury</strong>
+		is visible in the morning sky throughout the month and will be at its brightest towards month end.
+	</p>
+	<p>
+
+		<strong>Venus</strong>
+		is visible in the evening, approximately 1&#189; to 2 hours after sunset.
+	</p>
+	<p>
+		<strong>Mars</strong>
+		is visible all evening until it sets shortly before midnight.
+	</p>
+	<p>
+
+		<strong>Jupiter</strong>
+		is visible from about 03h00 at the beginning of the month and from about 01h00 towards the end of the month.
+	</p>
+	<p>
+		<strong>Saturn</strong>
+		is visible through most of the night until about 03h00 at the beginning of the month and until about 01h00 towards the end of the month.
+	</p>
+	<p>
+		<b>Uranus </b>
+
+		rises at approximately 03h00 early in the month and is up from about 01h00 until sunrise at month end.
+	</p>
+	<p>
+		<b>Neptune </b>
+		rises at approximately 01h00 at the beginning of the month and at about 23h00 at month end.
+	</p>
+		<br />
+
+
+		<h2 class="subheader">night sky in april 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		Last quarter - Tuesday 6 April<br />
+
+
+		New moon - Wednesday 14 April<br />
+
+
+		First quarter - Wednesday 21 April<br />
+
+
+		Full moon - Wednesday 28 April<br />
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in april</h3>
+
+	<p>
+		Mercury
+		sets half an hour after sunset at the beginning of the month but remains close to the sun and setting with the sun towards the end of the month.
+	</p>
+
+	<p>
+		Venus
+		is visible in the evening throughout the month for approximately 2 hours after sunset.
+	</p>
+	<p>
+		Mars
+		will be up during the evening until it sets at approximately 01h00.
+	</p>
+	<p>
+		Jupiter
+		rises at 02h00 at the beginning of the month and at approximately 03h00 towards the end of the month.
+	</p>
+	<p>
+
+		Saturn
+		is visible through most of the night for the entire month.
+	</p>
+	<p>
+		Uranus
+		is visible in the early morning sky throughout the month. The best time to view it would be towards the end of the month when it rises a few hours
+		before dawn.
+	</p>
+	<p>
+		Neptune
+		rises at approximately 03h00 at the beginning of the month and at 01h00 towards the end of the month.
+	</p>
+		<br />
+
+		<h2 class="subheader">night sky in march 2010</h2><br />
+
+	<h3 class="subheader">moon phases</h3>
+	<p>
+		Last quarter - Sunday 7 March<br />
+
+
+		New moon - Monday 15 March<br />
+
+
+		First quarter - Tuesday 23 March<br />
+
+
+		Full moon - Tuesday 30 March<br />
+	</p>
+	<br />
+
+		<h3 class="subheader">planets visible in march</h3>
+
+	<p>
+		Mercury
+		is low on the eastern horizon in the morning sky and the best time to view it is during the first week of the month, about an hour before sunrise.
+	</p>
+
+	<p>
+		Venus
+		sets shortly after sunset for the entire month.
+	</p>
+	<p>
+		Mars
+		is visible until it sets around one to two hours after midnight.
+	</p>
+	<p>
+		Jupiter
+		rises shortly before sunrise and is best visible during the last week of the month when it is visible half an hour before dawn.
+	</p>
+	<p>
+
+		Saturn
+		will be visible all night long for most of the month, setting just before dawn at the end of the month.
+	</p>
+	<p>
+		Uranus
+		sets shortly after sunset for the first week of the month, then rises just before sunrise on the 17<sup>th</sup>. At the end of the month it rises
+		approximately an hour before sunrise.
+	</p>
+	<p>
+		Neptune
+		rises about an hour before sunrise at the beginning of the month and at approximately 03h00 by the end of the month.
+	</p>
+		<br />
+
+		<br />
+		<h2 class="subheader">night sky in february 2010</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Last quarter - Saturday 6 February<br />
+        New moon - Sunday 14 February<br />
+        First quarter - Monday 22 February<br />
+
+        Full moon - Sunday 28 February<br /></p><br />
+
+        <h3 class="subheader">planets visible in february</h3>
+
+        <p>Mercury
+		is in the early morning sky low on the eastern horizon all month.</p>
+
+        <p>Venus
+		will be visible for about half an hour after sunset.</p>
+
+        <p>Mars
+		can be seen all night and until about 03h00 around the end of the month.</p>
+
+        <p>Jupiter
+		sets shortly after sunset, being very close to the sun by the end of the month.</p>
+
+        <p>Saturn
+		rises shortly after sunset and will be visible the whole night.</p>
+
+        <p>Uranus
+		is up for about 2 hours at the start of the month and gets very close to the sun by the end of the month.</p>
+
+        <p>Neptune
+		sets shortly after sunset, but from the middle of the month it will be a morning object, rising about half an hour before sunrise.</p><br />
+
+        <h2 class="subheader">night sky in january 2010</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Last quarter - Thursday 7 January<br />
+        New moon - Friday 15 January<br />
+        First quarter - Saturday 23 January<br />
+
+        Full moon - Saturday 30 January<br /></p><br />
+
+        <h3 class="subheader">planets visible in january</h3>
+
+        <p>Mercury is a "morning star" for the second half of this month.</p>
+
+        <p>Venus is behind the Sun, and is not visible until the 10th, remaining very
+        close to the sun.</p>
+
+        <p>Mars rises an hour or two after sunset and is visible all night throughout the
+        month.</p>
+
+        <p>Jupiter sets an hour or two after sunset. It is close to the Moon on the
+        17<sup>th</sup>.</p>
+
+        <p>Saturn rises just before midnight, and is visible all night.</p>
+
+        <p>Uranus is visible after sunset for several hours throughout the month.</p>
+
+        <p>Neptune is also only up for a few hours after sunset.</p><br />
+
+        <h2 class="subheader">night sky in november 2009</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Full moon - Monday 2 November<br />
+        Last quarter - Monday 9 November<br />
+        New moon - Monday 16 November<br />
+
+        First quarter - Tuesday 24 November</p><br />
+
+        <h3 class="subheader">planets visible in november</h3>
+
+        <p>Mercury, Venus, Mars, Saturn, Uranus and Neptune.</p><br />
+
+        <h2 class="subheader">night sky in september 2009</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Friday 04 September - Full Moon<br />
+        Saturday 12 September - Last Quarter<br />
+        Friday 18 September - New Moon<br />
+        Saturday 26 September - First Quarter</p><br />
+
+        <h3 class="subheader">planets visible in september</h3>
+
+        <p>Mercury can be seen until mid-month when it sets with the Sun on the
+        20th.&nbsp; Venus is a brilliant morning object, rising about an hour before
+        sunrise.&nbsp; Mars rises earlier each morning and is visible three to four hours
+        before sunrise.&nbsp; Spectacular Saturn sets shortly after sunset but from the
+        22nd is visible just before dawn.&nbsp; Equally impressive, Jupiter is visible
+        all night.&nbsp; Uranus can be seen all night, and Neptune is visible most of the
+        night, setting one to two hours before sunrise.</p><br />
+
+        <h2 class="subheader">night sky in august 2009</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Thursday 06 August - Full Moon<br />
+        Thursday 13 August - Last Quarter<br />
+        Thursday 20 August - New Moon<br />
+        Thursday 27 August - First Quarter</p><br />
+
+        <h3 class="subheader">planets visible in august</h3>
+
+        <p>Mercury can be seen after sunset and is at its greatest altitude towards the
+        end of the month.&nbsp; Venus is still a brilliant morning object for a couple of
+        hours before sunrise.&nbsp; Spectacular Saturn can be viewed in the evenings for
+        about an hour after sunset.&nbsp; Equally impressive is Jupiter, which rises
+        shortly after sunset and can be seen most of the night.&nbsp; Uranus rises a few
+        hours before midnight and can be seen all night, and Neptune is also out all
+        night.</p><br />
+
+        <h2 class="subheader">night sky in july 2009</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Tuesday 07 July - Full Moon<br />
+        Tuesday 15 July - Last Quarter<br />
+        Wednesday 22 July - New Moon<br />
+
+        Tuesday 28 July - First Quarter</p><br />
+
+        <h3 class="subheader">planets visible in july</h3>
+
+        <p>Spectacular Saturn with rings and all can be viewed in the evenings throughout
+        July for about four hours after sunset.&nbsp; Equally impressive is Jupiter,
+        which rises shortly after sunset and can be seen the whole night.&nbsp; Through
+        the telescopes you will see the belts around Jupiter and its four Galilean
+        moons.&nbsp; Other planets visible in the evening sky are Uranus and Neptune, and
+        in the morning sky, Mars and Venus are visible through telescopes.</p><br />
+
+        <h2 class="subheader">night sky in june 2009</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Sunday 07 June - Full Moon<br />
+        Monday 15 June - Last Quarter<br />
+        Monday 22 June - New Moon<br />
+
+        Monday 29 June - First Quarter</p><br />
+
+        <h3 class="subheader">planets visible in june</h3>
+
+        <p>Venus rises just after 03h00 is visible for about four hours before
+        sunrise.&nbsp; Mars can be seen in the morning sky for three hours before
+        sunrise.&nbsp; Jupiter is visible all night from about 22h30 on the 1st and from
+        20h30 on the 30th.&nbsp; Saturn is visible all evening until midnight on he 1st
+        and 22h00 at month end.&nbsp; Uranus is visible after midnight for the first week
+        and then from just before midnight for the rest of the month.&nbsp; Neptune rises
+        well before midnight and is visible until sunrise.&nbsp;</p><br />
+
+        <h2 class="subheader">night sky in may 2009</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Friday 01 May - First Quarter<br />
+        Saturday 09 May - Full Moon<br />
+        Sunday 17 May - Last Quarter<br />
+
+        Sunday 24 May - New Moon</p><br />
+
+        <h3 class="subheader">planets visible in May</h3>
+
+        <p>Mercury is an evening sky object until the 15th.&nbsp; Venus is visible in the
+        morning for about two to four hours before sunrise.&nbsp; Mars is visible in the
+        mornings from just before 04h00.&nbsp; Jupiter can be seen from just after
+        midnight on the 1st and from 22h30 at month end.&nbsp; Saturn is visible all
+        evening until 02h00 and until midnight at month end.&nbsp; Uranus rises at 03h00
+        on the 1st but is visible from 01h00 until sunrise at month end.&nbsp; Neptune
+        can be seen in the morning sky from just after midnight and from 22h30 at month
+        end.&nbsp;&nbsp;&nbsp;</p><br />
+
+        <h2 class="subheader">night sky in april 2009</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Thursday 02 April - First Quarter<br />
+        Thursday 09 April - Full Moon<br />
+        Friday 17 April - Last Quarter<br />
+
+        Saturday 25 April - New Moon</p><br />
+
+        <h3 class="subheader">planets visible in April</h3>
+
+        <p>Mercury sets a few minutes after sunset.&nbsp; Venus is visible in the morning
+        from one to two hours before sunrise the entire month.&nbsp; Mars is visible for
+        two hours before sunrise all month.&nbsp; Jupiter rises at 02h00 at the beginning
+        of the month and just after midnight by month end.&nbsp; Saturn is visible all
+        night until 04h00 on the 1st and until 02h00 at month end.&nbsp; Uranus can be
+        seen in the early morning sky all month.&nbsp; Neptune rises around 02h30 on the
+        1st and just after midnight at month end.&nbsp;</p><br />
+
+        <h2 class="subheader">night sky in march 2009</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Wednesday 04 March - First Quarter<br />
+        Wednesday 11 March - Full Moon<br />
+        Wednesday 18 March - Last Quarter<br />
+
+        Tuesday 26 March - New Moon</p><br />
+
+        <h3 class="subheader">planets visible in March</h3>
+
+        <p>Mercury, Venus, Mars, Jupiter, Saturn, Uranus and Neptune can all be viewed at
+        different times throughout March.&nbsp; Of these, Saturn with its rings is by far
+        the most spectacular and can be seen the whole night during
+        March.&nbsp;</p><br />
+
+        <h2 class="subheader">night sky in February 2009</h2><br />
+
+        <h3 class="subheader">moon phases</h3>
+
+        <p>Tuesday 03 February - First Quarter<br />
+        Monday 09 February - Full Moon<br />
+        Monday 16 February - Last Quarter<br />
+        Wednesday 25 February - New Moon</p><br />
+
+        <h3 class="subheader">planets visible in February</h3>
+
+        <p>Mercury, Venus, Mars, Jupiter, Saturn, Uranus and Neptune can all be viewed at
+        different times throughout February.&nbsp; Of these, Saturn with its rings is by
+        far the most spectacular and can be seen the whole night during
+        February.</p><br />
+
+            <a href="#" class="close">Close Window</a>
+
+            </div>
+            <br/>
+
+
+			<p style="text-align:center;width:600px;"><a  class="button" href="#" id="click_here3"> <span><harlink>Medical Services</harlink></span></a> </p>
+    		<br/>           
+     <div id="div3">
+            
+            <a href="#" class="close">Close Window</a>
+            
+
+<p>Guests at WildIndia! now have access to 24-hour on-site medical assistance, thanks to the implementation of a programme by Indian SAFE-T (Safari and Adventure Emergency Team).
+Any medical complaint from minor ailments to more serious conditions and injuries are dealt with by a fully trained medical team, one of whom is based on the reserve, with
+the others at an off-site facility.</p><br />
+
+<p>Dr. Simon King of SAFE-T explains: &quot;Traditionally, medical complaints in relatively inaccessible area were dealt with by evacuation i.e. moving the patient
+to the nearest urban medical facility. Our programme ensures on site response, with evacuation only taking place if absolutely necessary. In serious cases, evacuation time
+is reduced to 30 minutes as opposed to several hours, which is usually the case on a game reserve.&quot;</p><br />
+<p>WildIndia! Group Operations Director, Rod Wyndham says: &quot;While we hope that we only have to make use of this facility on rare occasions, the reality is that having the SAFE-T team
+on board is very reassuring. We now have readily available resources for medical assistance, as opposed to being completely reliant on urban resources.&quot; </p><br />
+<br />
+<br />
+            <a href="#" class="close">Close Window</a>
+
+            </div>
+            <br/>
+            
+            <p style="text-align:center;width:600px;"><a  class="button" href="#" id="click_here4"> <span><harlink>Location</harlink></span></a> </p>
+    		<br/>           
+     <div id="div4">
+            
+            <a href="#" class="close">Close Window</a>
+            <p>WildIndia! Private Game Reserve is an unspoilt part of India ecologically and geographically integrated with the adjacent Kaziranga National Park.
+It is situated within one of India's oldest and largest proclaimed reserves - the renowned WildIndia! Wildtuin.</p><br />
+
+
+<p>The map co-ordinates of Light Lodge Camp are: 26&deg; 34' 18&quot; S  93&deg; 23' 57&quot; E <br/>
+The map co-ordinates of Jungle Camp are: 26&deg; 40' 35&quot; S  93&deg; 28' 18&quot; E<br/>
+
+The map co-ordinates of Earth Bush Camp are: 26&deg; 37' 49&quot; S  93&deg; 15' 18&quot; E<br/>
+The map co-ordinates of Water Lodge are: 26&deg; 35' 19&quot; S  93&deg; 13' 19&quot; E<br/>
+
+The map co-ordinates the WildIndia! Airstrip are: 26&deg; 43' 25&quot; S 93&deg; 24' 15&quot; E<br/></p>
+
+            
+            <a href="#" class="close">Close Window</a>
+
+            </div>
+            <br/>
+
+            
+            <!-- InstanceEndEditable --></div>                    
+            
+            
+			<div id="bottomnav">
+           	  <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about/about.html">About WildIndia</a></li>
+                    <li><a href="../safaris/safaris.html">Safaris</a></li>
+                    <li><a href="../lodges/lodges.html">Visit Lodges</a></li>
+                    <li><a href="../safaris/daily.html">Schedule</a></li>
+                    <li><a href="usefulinfo.html">Useful Information</a></li>
+                    <li><a href="../tarrifs/tarrifs.html">Tariff</a></li>
+                    <li><a href="../bookings/booking.html">Bookings</a></li>
+                    <li><a href="../gallery/maingallery.html">Image Gallery</a></li>
+                    <li><a href="../gettingthere/gettingthere.html">Getting There</a></li>
+                    <li><a href="../contactus/contactus.html">Contact WildIndia</a></li>
+
+				</ul>
+     		</div>
+     
+     
+            
+	</div>
+</div>
+            
+     
+            
+            
+</body>
+<!-- InstanceEnd --></html>

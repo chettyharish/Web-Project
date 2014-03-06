@@ -1,0 +1,507 @@
+<!DOCTYPE HTML>
+<html><!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+    
+<script type="text/javascript">  // This is the script for the banner slider
+		$(document).ready(function() {
+			$('#slider').s3Slider({
+				timeOut: 4000
+			});
+		});
+	</script>
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>Website By Harish Chetty</title>
+    <script language="javascript" type="text/javascript" src="../js/niceforms.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="../css/niceforms-default.css" />
+    
+
+	<script type="text/javascript"> 
+	function submitform()
+	{
+
+		 var err_message=""
+		 if(document.regForm.fname.value.length==0)
+		 err_message+="Enter First Name\n";
+		 if(document.regForm.lname.value.length==0)
+		 err_message+="Enter Last Name\n";
+		 if((document.regForm.email.value.indexOf("@")<1)||(document.regForm.email.value.indexOf(".")<1))
+		 err_message+="Enter Valid Email Id\n";
+		if(!((document.getElementById('water').checked)||(document.getElementById('light').checked)||(document.getElementById('jungle').checked)||(document.getElementById('earth').checked)))		 
+		 err_message+="Please Select a Lodge\n";
+		 if(!((document.getElementById('yes').checked)||(document.getElementById('no').checked)))
+		 err_message+="Please Select the Safari Option\n";
+		 if(document.regForm.dotDay.value=="Date")
+		 err_message+="Enter Travel Date\n";
+		 if(document.regForm.dotMonth.value=="Month")
+		 err_message+="Enter Travel Month\n";
+		 if(document.regForm.dotYear.value=="Year")
+		 err_message+="Enter Travel Year\n";
+		 if(document.regForm.ntrv.value=="ntrv")
+		 err_message+="Please Enter the number of travellers\n";
+		 if(document.regForm.cctype.value=="Select")
+		 err_message+="Please Enter the type of the credit card\n";
+		 if(document.regForm.ccname.value.length==0)
+		 err_message+="Please Enter the credit card holders name\n";
+		 if(document.regForm.ccMonth.value=="Month")
+		 err_message+="Enter Credit Card Expiry Month\n";
+		 if(document.regForm.ccYear.value=="Year")
+		 err_message+="Enter Credit Card Expiry Year\n";
+		 if(document.regForm.ccvv.value.length==0)
+		 err_message+="Enter CVV number\n";
+		 if(document.regForm.add.value.length==0)
+		 err_message+="Enter Billing Address\n";
+		 if(document.regForm.city.value.length==0)
+		 err_message+="Enter City Name\n";
+		 if(document.regForm.country.value.length==0)
+		 err_message+="Enter Country Name\n";
+		 if(document.regForm.state.value.length==0)
+		 err_message+="Enter State Name\n";
+		 if(document.regForm.code.value.length==0)
+		 err_message+="Enter Pincode/Zip number\n";
+		 if(err_message!="")
+		 {
+		 	alert(err_message);
+		 	return false;
+		 }
+		 else
+		 	return true;
+	}
+	</script>
+	<!-- InstanceEndEditable -->
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/dropdown.css" media="screen" rel="stylesheet" type="text/css">
+<link href="css/default.advanced.css" media="screen" rel="stylesheet" type="text/css">
+<link href="css/slider.css" media="screen" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+a:link {
+	color: #FFF;
+}
+</style>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="outer">
+
+    <div id="wrapper">
+            
+            <div id="logo">
+            <img src="images/logo.jpg"/>
+            </div>
+            
+            <div id="social">
+                <ul>
+                    <li><a href="http://www.facebook.com/"><img src="images/icons/facebook.png" width="24" height="24"/></a></li>
+                    <li><a href="http://www.flickr.com/"><img src="images/icons/flickr.png" width="24" height="24"/></a></li>
+                    <li><a href="http://www.stumbleupon.com/"><img src="images/icons/stumbleupon.png" width="24" height="24"/></a></li>
+                    <li><a href="http://twitter.com/"><img src="images/icons/twitter.png" width="24" height="24"/></a></li>
+                    <li><a href="http://www.yelp.com/"><img src="images/icons/yelp.png" width="24" height="24"/></a></li>
+                    <li><a href="http://www.youtube.com/"><img src="images/icons/youtube.png" width="24" height="24"/></a></li>
+                </ul>
+            </div>
+            
+            
+	  <div id="topnav">
+				<ul id="nav" class="dropdown dropdown-horizontal">
+	
+					<li> <a href="index.html" class="dir">Home</a></li>
+            
+            		<li><a href="about/about.html" class="dir">About WildIndia!</a>
+
+                       <ul>
+                          <li><a href="about/about.html">About WildIndia!</a></li>
+                          <li><a href="about/history.html">History</a></li>
+                          <li><a href="about/philosophy.html">Philosophy</a></li>
+                          <li><a href="about/conservation.html">Conservation in Progress</a></li>
+                          <li><a href="about/community.html">Community Empowerment</a></li>
+                      </ul>
+					</li>
+            
+                    <li><a href="safaris/safaris.html" class="dir">Safaris</a>
+						<ul>
+                          <li><a href="safaris/daily.html">Daily Programme</a></li>
+                          <li><a href="safaris/safaris.html">Safari</a></li>
+						</ul>
+					</li>
+       
+					<li><a href="lodges/lodges.html" class="dir">Lodge</a>
+						<ul>
+                          <li><a href="lodges/lodges.html">Lodges</a></li>
+                          <li><a href="lodges/watercamp.html">Water Camp</a></li>
+                          <li><a href="lodges/lightlodge.html">Light Lodge</a></li>
+                          <li><a href="lodges/junglecamp.html">Jungle Camp</a></li>
+                          <li><a href="lodges/earthcamp.html">Earth Lodge</a></li>
+						</ul>
+					</li>       
+       
+					<li><a href="services/amanilight.html" class="dir">Lodge Services</a>
+						<ul>
+                          <li><a href="services/amanilight.html">Amani Spa at Light Lodge</a></li>
+                          <li><a href="services/amaniearth.html">Amani Spa at Earth Lodge</a></li>
+                          <li><a href="services/incentive.html">Incentives</a></li>
+                          <li><a href="services/romantic.html">Romantic Touches</a></li>
+                          <li><a href="services/themed.html">Themed Dinners</a></li>
+						</ul>
+					</li>       
+       
+				  <li><a href="tarrifs/tarrifs.html" class="dir">Tarrif</a>
+						<ul>
+                          <li><a href="tarrifs/tarrifs.html">Tarif</a></li>
+                          <li><a href="#" onclick=
+                          "MyWindow=window.open('http://www.sabisabi.com/tariffs/converter','MyWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=400,height=250'); return false;">
+                          Currency Converter</a></li>
+						</ul>
+					</li>       
+       
+					<li><a href="bookings/booking.html" class="dir">Bookings</a>
+						<ul>
+                          <li><a href="bookings/booking.html">Book Now!</a></li>
+                          <li><a href="bookings/internationaloffices.html">International Offices</a></li>
+                          <li><a href="bookings/children.html">Children&prime;s Policy</a></li>
+						</ul>
+					</li> 
+                    
+                    <li><a href="usefulinfo/usefulinfo.html" class="dir">Useful Information</a>
+					</li>                     
+        
+        
+					<li><a href="gallery/maingallery.html" class="dir">Image Gallery</a>
+						<ul>
+                          <li><a href="gallery/maingallery.html">Image Gallery</a></li>
+                          <li><a href="gallery/watergallery.html">Water Camp</a></li>
+                          <li><a href="gallery/lightgallery.html">Light Lodge</a></li>
+                          <li><a href="gallery/junglegallery.html">Jungle Camp</a></li>
+                          <li><a href="gallery/earthgallery.html">Earth Lodge</a></li>
+                          <li><a href="gallery/wildlifegallery.html">WildLife</a></li>
+                          <li><a href="gallery/themedgallery.html">Themed</a></li>
+                          <li><a href="gallery/romanticgallery.html">Romantic</a></li>
+                          <li><a href="gallery/safarigallery.html">Safari</a></li>
+						</ul>
+					</li>               
+        
+					<li><a href="gettingthere/gettingthere.html" class="dir">Getting There</a>
+						<ul>
+                          <li><a href="gettingthere/gettingthere.html">How to get there</a></li>
+						</ul>
+					</li>
+                                   
+					<li><a href="contactus/contactus.html">Contact WildIndia!</a></li>
+				</ul>
+			</div>
+            
+            
+           
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<!-- InstanceBeginEditable name="banner" -->
+			<div id="slider">
+			  <ul id="sliderContent">
+			    <li class="sliderImage"> <img src="../images/banner/1.jpg"/> <span class="top"><strong>Light Lodge</strong> <br/>
+			      For decades Light Lodge has been WildIndia's <br/>
+			      flagship lodge,amed for its warmth, vibrancy <br/>
+			      and legendary hospitality. <br/>
+			      <br/>
+			      A favourite amongst travellers in search of <br/>
+			      luxury accommodation,Light Lodge is a luxurious <br/>
+			      safari escape set in the heart of the WildIndia <br/>
+			      bushveld overlooking a waterhole and an Indian plain. </span></li>
+			    <span class="top">
+			      <li class="sliderImage"> <img src="../images/banner/2.jpg" /> <span class="top"><strong>Water Camp</strong> <br/>
+			        Imagine the India of the great safari era, when <br/>
+			        blazing sunsets melted into lantern lit romance <br/>
+			        and service was an effortless whisper. <br/>
+			        <br/>
+			        This is the India you will experience at WildIndia <br/>
+			        Water Camp, an award winning luxury game lodge in India. </span></li>
+			      <li class="sliderImage"> <img src="../images/banner/3.jpg" /> <span class="top"><strong>Leopard</strong> <br/>
+			        The most secretive and elusive of the large carnivores, <br/>
+			        the leopard is also the shrewdest. Pound for pound, <br/>
+			        it is the strongest climber of the large cats and <br/>
+			        capable of killing prey larger than itself. </span></li>
+			      <li class="sliderImage"> <img src="../images/banner/4.jpg" /> <span class="top"><strong>Amani Spa</strong> <br/>
+			        Treat yourself to the health and luxury you deserve <br/>
+			        at the Amani Spa at Light Lodge. The perfect place <br/>
+			        to rest and relax, this haven of tranquility offers <br/>
+			        the ultimate African Spa experience. </span></li>
+			      <li class="sliderImage"> <img src="../images/banner/5.jpg" /> <span class="top"><strong>Asian Elephant</strong> <br/>
+			        The Majestic Animal of Ancient times with <br/>
+			        footsteps which shake the earth will fill your <br/>
+			        hears with fear. </span></li>
+			      <div class="clear sliderImage"></div>
+		        </span>
+		      </ul>
+		    </div>
+			<!-- InstanceEndEditable -->
+			<div id="content-fullwidth"><!-- InstanceBeginEditable name="content" -->
+<p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+<div id="containerform">
+<form onSubmit="return submitform()" method="post" class="niceform" name="regForm" >
+	<fieldset>
+    <legend>Travellers Information</legend>
+    <p>&nbsp;</p>
+        <dl>
+        	<dt><label for="name">First Name:</label></dt>
+            <dd><input type="text" name="fname" id="fname" size="32" maxlength="128" /></dd>
+        </dl>
+        <dl>
+        	<dt><label for="lname">Last Name:</label></dt>
+            <dd><input type="text" name="lname" id="lname" size="32" maxlength="128" /></dd>
+        </dl>
+        <dl>
+        	<dt><label for="email">Email Address:</label></dt>
+            <dd><input type="text" name="email" id="email" size="32" maxlength="128" /></dd>
+        </dl>
+        
+        <dl>
+        	<dt><label for="color">Lodge Name:</label></dt>
+
+            <dd>
+            	<input type="radio" name="lodge" id="water" value="water" /><label for="water" class="opt">Water Camp&nbsp&nbsp&nbsp</label>
+                <input type="radio" name="lodge" id="light" value="light" /><label for="light" class="opt">Light Lodge&nbsp&nbsp&nbsp</label>
+                <input type="radio" name="lodge" id="jungle" value="jungle" /><label for="jungle" class="opt">Jungle Camp&nbsp&nbsp&nbsp</label>
+                <input type="radio" name="lodge" id="earth" value="earth" /><label for="earth" class="opt">Earth Lodge&nbsp&nbsp&nbsp</label>
+            </dd>
+        </dl>
+
+
+		<dl>
+        	<dt><label for="color">Safari Trip:</label></dt>
+
+            <dd>
+            	<input type="radio" name="safari" id="yes" value="yes" /><label for="tes" class="opt">Yes&nbsp&nbsp&nbsp</label>
+                <input type="radio" name="safari" id="no" value="no" /><label for="no" class="opt">No&nbsp&nbsp&nbsp</label>
+            </dd>
+        </dl>
+
+        
+        
+        <dl>
+        	<dt>Date of Travel:</dt>
+            <dd>
+                <select size="1" name="dotDay" id="dotDay">
+                	<option value="Date">Date</option>
+                	<option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+            	<select size="1" name="dotMonth" id="dotMonth">
+                	<option value="Month">Month</option>
+                	<option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+                <select size="1" name="dotYear" id="dotYear">
+                	<option value="Year">Year</option>
+                	<option value="2012">2012</option>
+                	<option value="2011">2011</option>
+                </select>
+                
+            </dd>
+           
+            </dl>
+            
+            
+            
+            <dl>
+            <dt>No. of Travellers</dt>
+            <dd>
+            
+     	 <select size="1" name="ntrv" id="ntrv">
+             <option value="ntrv">Number of travellers</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+      	</select>
+        
+        
+        </dd>
+        
+        </dl>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+  
+	</fieldset>
+    
+    <fieldset>
+    <legend>Payment Details</legend>
+    <p>&nbsp;</p>
+		<dl>
+        	<dt>Credit Card Type:</dt>
+            <dd>
+                <select size="1" name="cctype" id="cctype">
+                	<option value="Select">Select credit Card Type</option>
+                	<option value="MasterCard">MasterCard</option>  
+                	<option value="Visa">Visa</option>  
+                	<option value="American Express">American Express</option>  
+                    </select>
+                    </dd>
+                    </dl>
+                    
+        <dl>
+        	<dt><label for="ccname">Card Holder:</label></dt>
+            <dd><input type="text" name="ccname" id="ccname" size="32" maxlength="128" /></dd>
+        </dl>
+        
+        
+        <dl>
+        	<dt>Expiry Date:</dt>
+            <dd>
+            	<select size="1" name="ccMonth" id="ccMonth">
+                	<option value="Month">Month</option>
+                	<option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+                <select size="1" name="ccYear" id="ccYear">
+                	<option value="Year">Year</option>
+                	<option value="2011">2011</option>
+                	<option value="2012">2012</option>
+                	<option value="2013">2013</option>
+                	<option value="2014">2014</option>
+                	<option value="2015">2015</option>
+                	<option value="2016">2016</option>
+                	<option value="2017">2017</option>
+                	<option value="2018">2018</option>
+                	<option value="2019">2019</option>
+                	<option value="2020">2020</option>
+                    
+                    
+                </select>
+                
+            </dd>
+           
+            </dl>  
+            
+        <dl>
+        	<dt><label for="ccvv">CVV Number:</label></dt>
+            <dd><input type="text" name="ccvv" id="ccvv" size="32" maxlength="128" /></dd>
+        </dl>
+        
+        <dl>
+        	<dt><label for="add">Billing Address:</label></dt>
+            <dd><input type="text" name="add" id="add" size="32" maxlength="128" /></dd>
+        </dl>
+
+        <dl>
+        	<dt><label for="city">City:</label></dt>
+            <dd><input type="text" name="city" id="city" size="32" maxlength="128" /></dd>
+        </dl>
+
+        <dl>
+        	<dt><label for="country">Country:</label></dt>
+            <dd><input type="text" name="country" id="country" size="32" maxlength="128" /></dd>
+        </dl>
+        
+        <dl>
+        	<dt><label for="state">State:</label></dt>
+            <dd><input type="text" name="state" id="state" size="32" maxlength="128" /></dd>
+        </dl>
+        
+        
+        <dl>
+        	<dt><label for="code">Pincode/Zip:</label></dt>
+            <dd><input type="text" name="code" id="code" size="32" maxlength="128" /></dd>
+        </dl>
+                    
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+                    
+                    
+                    
+                    
+                    
+                    
+                            
+    <fieldset class="action">
+    	<input type="submit" name="submit" id="submit" value="Submit" />
+    </fieldset>
+    </form>
+            <!-- InstanceEndEditable --></div>                    
+            
+            
+			<div id="bottomnav">
+           	  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about/about.html">About WildIndia</a></li>
+                    <li><a href="safaris/safaris.html">Safaris</a></li>
+                    <li><a href="lodges/lodges.html">Visit Lodges</a></li>
+                    <li><a href="safaris/daily.html">Schedule</a></li>
+                    <li><a href="usefulinfo/usefulinfo.html">Useful Information</a></li>
+                    <li><a href="tarrifs/tarrifs.html">Tariff</a></li>
+                    <li><a href="bookings/booking.html">Bookings</a></li>
+                    <li><a href="gallery/maingallery.html">Image Gallery</a></li>
+                    <li><a href="gettingthere/gettingthere.html">Getting There</a></li>
+                    <li><a href="contactus/contactus.html">Contact WildIndia</a></li>
+
+				</ul>
+     		</div>
+     
+     
+            
+	</div>
+</div>
+            
+     
+            
+            
+</body>
+<!-- InstanceEnd --></html>
